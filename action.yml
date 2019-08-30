@@ -13,6 +13,27 @@ inputs:
   text:
     description: 'text'
     required: false
+    default: ''
+  header title:
+    description: 'header title'
+    required: false
+    default: ''
+  header subtitle:
+    description: 'header subtitle'
+    required: false
+    default: ''
+  header image:
+    description: 'header image url'
+    required: false
+    default: ''
+  button first:
+    description: '[text](url)'
+    required: false
+    default: ''
+  button second:
+    description: '[text](url)'
+    required: false
+    default: ''
 
 runs:
   using: 'node12'
