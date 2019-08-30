@@ -1,1 +1,16 @@
+name: 'Send Google Hangouts Chat'
+description: 'Send notification to Hangouts Chat via webhook.'
+author: 'yuki0n0'
 
+branding:
+  icon: 'message-circle'
+  color: 'green'
+
+inputs:
+  url:
+    description: 'Incoming webhook url of Google Hangouts Chat.'
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'main.js'
