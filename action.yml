@@ -10,6 +10,9 @@ inputs:
   url:
     description: 'Incoming webhook url of Google Hangouts Chat.'
     required: true
+  text:
+    description: 'text'
+    required: false
 
 runs:
   using: 'node12'
