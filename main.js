@@ -65,5 +65,7 @@ request.post({
         "cards": [card]
     }
 }, (err, res, data) => {
-    console.log(err, res, data);
+    if (err) {
+        console.log(err);
+    }
 });
